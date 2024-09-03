@@ -1,0 +1,8 @@
+- Langages : C/C++, C#, python
+- Développements applications desktops
+- Développements architecture distribuée
+- Développements des applications multitâches
+- Méthodologie Agile : SCRUM
+- SGBD : SQLite, MySQl
+- Outils : PlantUML, Booml, Visual Studio, JIRA, CMake, Git
+- Bureautique : Word, Excel VBA, PowerPoint

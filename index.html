@@ -1,0 +1,49 @@
+---
+layout: default
+title: GM-Dev
+shortName: GM-Dev
+---
+
+<section class="technical skills section">
+    <div class="section-inner shadow-sm rounded">
+        <h2 class="heading">Compétences techniques</h2>
+        <div class="content">
+            <p>
+                {% capture technical_skills %} {% include technical_skills.md %} {% endcapture %}
+                {{ technical_skills | markdownify }}
+            </p>
+        </div><!--//content-->
+    </div><!--//section-inner-->                 
+</section><!--//section-->
+
+<section class="business skills section">
+    <div class="section-inner shadow-sm rounded">
+        <h2 class="heading">Compétences métier</h2>
+        <div class="content">
+            <p>
+                {% capture business_skills %} {% include business_skills.md %} {% endcapture %}
+                {{ business_skills | markdownify }}
+            </p>
+        </div><!--//content-->
+    </div><!--//section-inner-->                 
+</section><!--//section-->
+
+<section class="experience section">
+    <div class="section-inner shadow-sm rounded">
+        <h2 class="heading">Experiences</h2>
+        <div class="content">
+            {% assign experiences = site.experiences | where: 'status', 'published' | sort: 'order' | reverse %}
+            {% for experience in experiences %}  
+                <div class="item">
+                    <h3 class="title">{{ experience.title }} - <span class="place"><a href="{{ experience.link }}">{{ experience.company }}</a></span> <span class="year">({{ experience.dates }})</span></h3>
+                    {{ experience.content }}
+                    {% for skill in experience.skills %}  
+                    <span class="tag">{{ skill }}</a></span>
+                    {% endfor %}
+                </div><!--//item-->
+            {% endfor %}
+        </div><!--//content-->  
+    </div><!--//section-inner-->                 
+</section><!--//section-->                
+
+
