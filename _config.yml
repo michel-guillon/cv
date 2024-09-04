@@ -58,15 +58,9 @@ GM-Dev:
       url: https://michel-guillon.github.io/gm-dev.github.io/projects
 
 collections:
-  skills:
-    output: false
-  soft_skills:
-    output: false
   projects:
     output: true
     permalink: /project/:path/
-  experiences:
-    output: true
   certifications:
     output: true
     permalink: /certification/:path/
