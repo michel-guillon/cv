@@ -24,7 +24,7 @@
         }, false);
 
         function callFeed() {
-            fetch("https://icreated.co/feed.xml")
+            fetch("https://michel-guillon.github.io/gm-dev.github.io/feed.xml")
                 .then(response => response.text())
                 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
                 .then(data => {

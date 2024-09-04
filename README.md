@@ -1,4 +1,4 @@
-<a href="https://gm-dev.io" target="_blank"><img src="assets/images/icreated-screenshort.png" alt="Developer resume" width="750" /></a>
+<a href="https://michel-guillon.github.io/cv//" target="_blank"></a>
 
 
 I just updated the [Xiaoying Riley](https://twitter.com/3rdwave_themes) template to Jekyll and use it as my resume freely hosted on Github Pages.
