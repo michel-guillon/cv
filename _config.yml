@@ -7,7 +7,7 @@ header:
     Développeur freelance C++
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://michel-guillon.fr"
+url: "https://michel-guillon.github.io/cv/"
 twitter_username: jekyllrb
 github_username:  jekyll
 
