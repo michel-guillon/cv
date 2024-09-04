@@ -39,6 +39,16 @@ jobs:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Install SSH keys
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: "Add known public keys of github here"
+
+      - name: Install gems # usual step to install the gems.
+        run: |
+          bundle config path vendor/bundle 
+          bundle install --jobs 4 --retry 3          
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
