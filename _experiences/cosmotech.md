@@ -11,7 +11,7 @@ sitemap: false
 
 [Cosmo Tech](http://cosmotech.com)
 
-SDK/Core
+**SDK/Core**
   - A partir d'une base de code générique (entities, compound
     entities, ...) générer le code du simulateur à partir du modèle
     conceptuel que l'utilisateur a modélisé.
@@ -19,12 +19,12 @@ SDK/Core
     les probes pour obtenir les valeurs de la simulation, les
     consumers pour afficher des graphes à partir des résultats des probes.
 
-Back-end
+**Back-end**
   - Maintenance (création nouvelles fonctionnalités et correction
     de bugs) d'une api en kotlin avec openapi swagger, qui permet
     de créer des scénarios et lancer des simulations.    
 
-Exemples de ce que j'ai fait:
+**Exemples de ce que j'ai fait**:
   - Implémenter une nouvelle API pour changer et harmoniser l'ownership.
   - Implémenter le csv consumer pour le StarProbe.
   - Implémenter ForEachTask pour le schéduler.

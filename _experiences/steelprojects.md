@@ -11,13 +11,19 @@ sitemap: false
 
 [Steel Projects](https://www.steelprojects.com/) 
 
-Remplacement de la base de données par rapport à la version précédente,
-en tenant en compte de l'interface existante.
+**WinCN**
+<p>Remplacement de la base de données par rapport à la version précédente,
+en tenant en compte de l'interface existante.<br>
 Le logiciel WINCN utilise la base de données existante Btrieve. Le but est de
-remplacer cette base par SQLite.
-Analyse et recherche
-Rédaction de spécifications techniques
-Conception
-Développements (sous Visual C++)
-Tests unitaires
-Maintenance corrective et évolutive des applications
+remplacer cette base par SQLite.<br>
+Notamment j'ai éffectué les taches suivantes:</p>
+- Analyse et recherche
+- Rédaction de spécifications techniques
+- Conception
+- Développements (sous Visual C++)
+- Maintenance corrective et évolutive des applications
+
+**Steel Projects plateforme**
+<p>A partir de la plateforme en C++:</p>
+- Ajout nouvelles fonctionnalités
+- Correction de bugs
